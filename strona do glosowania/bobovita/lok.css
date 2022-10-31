@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none; 
+	
+}
+body{
+		background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/bobik.jpg);
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: black;
+}
+.formbox{
+	width: 620px;
+	height: 350px;
+	position: relative;
+	margin: 6% auto;
+	background: #fff;
+	padding: 5px;
+	overflow: hidden;
+	border-radius: 30px;
+	transition: 0.4s ease-in-out;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 40px;
+	position: relative;
+}
+.formbox:hover{
+	box-shadow: 0 0 15px 9px #ff61241f;
+	transform: scale(1.01) ;
+}
+.jas
+{
+	background: linear-gradient(to right, #ff105f, #ffad06);
+	padding: 10px;
+	top: 65px;
+	border-radius: 30px;
+	transition: 0.4s ease-in-out;
+	position: relative;
+	padding: 10px 30px;
+	width: 400px;
+}
+.jas:hover
+{
+	box-shadow: 0 0 15px 9px #ff61241f;
+	transform: scale(2);
+}
+.nat
+{
+	margin-top: 35px;
+	-webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;
+}

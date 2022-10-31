@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+.hero{ 
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/bobik.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.formbox{
+	width: 380px;
+	height: 550px;
+	position: relative;
+	margin: 6% auto;
+	background: #fff;
+	padding: 5px;
+	overflow: hidden;
+	border-radius: 30px;
+	transition: 0.4s ease-in-out;
+}
+.formbox:hover{
+	box-shadow: 0 0 15px 9px #ff61241f;
+	transform: scale(1.01) ;
+}
+.buttonbox{
+	width: 260px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+
+.togglebtn{
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+}
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: linear-gradient(to right, #ff105f, #ffad06);
+	border-radius: 30px;
+	transition: .5s;
+}
+.socialicons{
+	margin: 20px auto;
+	text-align: center;
+}
+.socialicons img{
+	width: 30px;
+	margin: 0 12px;
+
+	cursor: pointer;
+	border-radius: 50%;
+	transition:0.3s ease-in-out;
+	
+}
+#fb{display: inline-flex;}
+#go{display: inline-flex;}
+#tw{display: inline-flex;}
+#fb:hover img{
+	transform: scale(1.03);
+	box-shadow: 0 0 15px 9px #ff61241f;
+}
+#go:hover img{
+	transform: scale(1.03);
+	box-shadow: 0px 0px 15px 9px rgba(255,102,107,0.17);
+}
+#tw:hover img{
+	transform: scale(1.03);
+	box-shadow: 0 0 15px 9px #ff61241f;
+}
+.inputgroup{
+	top: 180x;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+.inputfield{
+	width: 100%;
+	padding: 10px 0px 10px 10px;
+	border: 1px solid #ff9513;
+	border-radius: 30px;
+	outline: none;
+transition:0.3s ease-in-out;
+}
+.inputfield:focus{
+	border: 1px solid #ff6b2b;
+	box-shadow: 0 0 15px 2px #ff61241f;
+	transform: scale(1.01);
+}
+.submitbtn{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right, #ff105f, #ffad06);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+	transition:0.3s ease-in-out;
+}
+.submitbtn:hover{
+	transform: scale(1.03);
+	box-shadow: 0 0 15px 9px #ff61241f;
+}
+.chechbox{
+	margin: 30px 10px 30px 0;
+}
+
+span{
+	color: #777;
+	font-size: 12px;
+	bottom: 68px;
+	position: absolute;
+}
+#login{
+	left: 50px;
+}
+#register{
+	left: 450px;
+}
+#gobik,#gobik2,#gobik3{
+	margin: 0 0 14px 0;
+}
+#quote{
+	width: 80%;
+	text-align: auto;
+	font-size: 0.9em;
+	margin: 0 10% 0 10%;
+	text-align: center;
+	user-select: none;
+	display: inline-block;
+	height: 80px;
+	position: relative;
+}
